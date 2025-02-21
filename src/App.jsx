@@ -1,6 +1,7 @@
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Dynmic from "./Dynmic";
 import ErrorPage from "./ErrorPage";
+import Copied from "./Copied";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path : "/dynmic",
     element : <Dynmic />
+  },
+  {
+    path : "/copied",
+    element : <Copied /> 
   },
   {
     path : "*",
